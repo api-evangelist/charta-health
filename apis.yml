@@ -1,8 +1,15 @@
 aid: charta-health
 name: Charta Health
-description: 'Charta Health is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Charta Health is a healthcare AI company (founded 2023) that provides
+  AI-powered medical chart review and autonomous coding for provider groups, FQHCs,
+  MSOs, health systems, and payers. Its platform streams charts in from hundreds of
+  EHR, clearinghouse, and billing integrations, then audits every patient encounter
+  pre-billing to generate codes, surface missed revenue and E/M leveling issues, identify
+  HCC risk-adjustment codes with supporting documentation citations, reduce payer
+  audit risk, and deliver data-driven provider feedback. Charta reports outcomes such
+  as an 11% revenue uplift from scaling pre-billing review across 100% of encounters.
+  Integrations are built per customer against the customer''s EHR (e.g. athenahealth
+  Marketplace); Charta does not publish a public self-serve developer API or portal.'
 url: https://raw.githubusercontent.com/api-evangelist/charta-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,33 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/697bac58e9de4034f20cb7a7/6997b685aa4566ba36a160b9_Open%20Graph.png
 tags:
 - Company
 - Healthcare
+- Artificial Intelligence
+- Medical Coding
+- Revenue Cycle Management
+- Chart Review
+- Clinical Documentation
+- Risk Adjustment
+- Autonomous Coding
+- EHR Integration
+- Payer Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.chartahealth.com/
+- type: About
+  url: https://www.chartahealth.com/about
+- type: Blog
+  url: https://www.chartahealth.com/resources
+- type: Support
+  url: https://www.chartahealth.com/contact
+- type: SignUp
+  url: https://www.chartahealth.com/demo
+- type: PrivacyPolicy
+  url: https://www.chartahealth.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/charta-health
+- type: LinkedIn
+  url: https://www.linkedin.com/company/charta-health/
+- type: Careers
+  url: https://www.chartahealth.com/careers
+- type: DomainSecurity
+  url: security/charta-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
